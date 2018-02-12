@@ -1,0 +1,48 @@
+<!--Vanessa Martínez Romero 160300006
+  Jorge David Oregón Baltazar 160300117-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <title>Registro de usuario</title>
+    <link rel="stylesheet" type="text/css" href="Estilos2/Styles.css">
+  	<script type="text/javascript" src="Javascript/gallery.js"></script>
+  <h1>Registro de usuario</h1>
+  <meta charset="utf-8">
+  </head>
+  <body background="Fotos2/compu.jpg">
+  	<div id="Login">
+<form name=form action="seccion4.html">
+<center>
+  <P><b>User:   </b><input type=text name=login placeholder="username"> 
+  <P><b>Password: </b><input type=password name=password placeholder="password"> 
+  <br/>
+  <br/>
+<input onclick=validar() type=button value=Acceder>
+</center>
+</form>
+</div>
+<input type="button" value="Back" onclick="goBack()">
+<br/> 
+  	 <p id="demo"></p>
+  <script>
+   document.getElementById("demo").innerHTML = Date();
+    </script>
+
+    <p id="a2"></p>
+    <script>
+     document.getElementById("a2").innerHTML = 
+    "El URL de este sitio es:<br>" + window.location.href;
+</script>
+<div id="menu">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="seccion2.html">Quienes somos</a></li>
+        <li><a href="seccion3.html">Lista de materias</a></li>
+        <li><a href="seccion4.html">Registro de usuario</a></li>
+        <li><a href="seccion5.html">Descargas</a></li>
+        <li><a href="seccion6.html">Contacto</a></li>
+      </ul>
+    </div>
+  </body>
+  </html>

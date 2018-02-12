@@ -1,0 +1,71 @@
+<!--Vanessa Martínez Romero 160300006
+	Jorge David Oregón Baltazar 160300117-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  	<meta charset="utf-8">
+  	<title>Nuestro Proyecto Web</title>
+  	<link rel="stylesheet" type="text/css" href="Estilos2/Styles.css">
+  	<script type="text/javascript" src="Javascript/gallery.js"></script>
+  	<h1>Nuestra página web</h1>
+  	<h2>Bienvenidos</h2>
+  </head>
+  <body>
+  	<p>Haz click en el botón y espera 3 segundos...
+    <button onclick="setTimeout(myFunction, 3000);">Haz Click</button>
+</p>
+  	<div id="imagenJ">
+  		<img src="Fotos2/io.jpg" width="300" height="300" border="2" title="Jorge Oregón" />
+  		<div id="b1">
+  		<p>Nombre: Jorge David Oregón Baltazar</p>
+  		<p>Edad: 22 años</p>
+  		<p>Color favorito: Morado</p>
+  		<p>Comida favorita: Tacos dorados</p>
+  	</div>
+  	</div>
+  	<div id="imagenV">
+  		<img src="Fotos2/eia.jpg" width="300" height="300" border="2" title="Vanessa Martínez" />
+  		<div id="b2">
+  		<p>Nombre: Vanessa Martínez Romero</p>
+  		<p>Edad: 21 años</p>
+  		<p>Color favorito: Rojo</p>
+  		<p>Comida favorita: Lasagna</p>
+  	</div>
+  	</div>
+  	<div id="Galeria">
+		<span id="Descripcion">Galería de imágenes</span> 
+			<ul id="ListaDeImagenes">
+			<li><a onclick="return showPic(this)" href="Fotos2/vj2.jpg" width="500" height="400" border="2" title="Imagen número 1">1</a></li>
+			<li><a onclick="return showPic(this)" href="Fotos2/vj3.jpg" width="500" height="400" border="2" title="Imagen número 2">2</a></li>
+			<li><a onclick="return showPic(this)" href="Fotos2/vj4.jpg" width="500" height="400" border="2" title="Imagen número 3">3</a></li>
+			<li><a onclick="return showPic(this)" href="Fotos2/vj5.jpg" width="500" height="400" border="2" title="Imagen número 4">4</a></li>
+			<li><a onclick="return showPic(this)" href="Fotos2/vj6.jpg" width="500" height="400" border="2" title="Imagen número 5">5</a></li>
+			<li><a onclick="return showPic(this)" href="Fotos2/vj7.jpg" width="500" height="400" border="2" title="Imagen número 6">6</a></li>
+			<li><a onclick="return showPic(this)" href="Fotos2/vj8.jpeg" width="500" height="400" border="2" title="Imagen número 7">7</a></li>
+			</ul>
+	<img id="Contenedor" src="Fotos2/vj1.jpg" width="500" height="400" border="2" />
+	</div>
+	</div>
+  <p id="demo"></p>
+  <script>
+   document.getElementById("demo").innerHTML = Date();
+    </script>
+
+    <p id="a2"></p>
+    <script>
+     document.getElementById("a2").innerHTML = 
+    "El URL de este sitio es:<br>" + window.location.href;
+</script>
+	  	<div id="menu">
+		<ul class="nav">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="seccion2.html">Quienes somos</a></li>
+				<li><a href="seccion3.html">Lista de materias</a></li>
+				<li><a href="seccion4.html">Registro de usuario</a></li>
+				<li><a href="seccion5.html">Descargas</a></li>
+				<li><a href="seccion6.html">Contacto</a></li>
+			</ul>
+		</div>
+  </body>
+ </html>
